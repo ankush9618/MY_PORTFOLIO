@@ -1,0 +1,25 @@
+.name{
+background-color: transparent !important;
+word-spacing: 2px;
+}
+
+.navbar-right{
+  background: linear-gradient(267deg, #DA7C25 .36%, #B923E1 102.06%);
+}
+
+.home .name{
+  background: linear-gradient(267deg, #DA7C25 .36%, #B923E1 102.06%);
+  background-clip: text;
+}
+
+
+
+.menu-items{
+  position: absolute;
+  right: -450px;
+  transition: right;
+  transition-duration: 1s;
+}
+.menu-open{
+  right: -20px;
+}
