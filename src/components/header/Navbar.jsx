@@ -46,9 +46,9 @@ function Navbar() {
                             <li>Projects</li>
                             <li>Contact</li>
                             <li className='flex gap-4 mt-8'>
-                                <img src="src/assets/linkedIn.svg" className='w-10 text-white' alt="a" />
-                                <img src="src/assets/git.svg" className='w-10 text-white' alt="a" />
-                                <img src="src/assets/instagram.svg" className='w-10 text-white' alt="a" />
+                                <img src="src/assets/linkedIn.png" className='w-10 text-white' alt="a" />
+                                <img src="src/assets/git.png" className='w-10 text-white' alt="a" />
+                                <img src="src/assets/instagram.png" className='w-10 text-white' alt="a" />
                                 
                             </li>
                         </ul>
