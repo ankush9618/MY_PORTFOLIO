@@ -23,3 +23,12 @@ word-spacing: 2px;
 .menu-open{
   right: -20px;
 }
+
+.info-button{
+  background: linear-gradient(267deg, #DA7C25 .36%, #B923E1 102.06%);
+
+}
+
+.resume{
+  border: 8px solid linear-gradient(267deg, #DA7C25 .36%, #B923E1 102.06%);
+}
