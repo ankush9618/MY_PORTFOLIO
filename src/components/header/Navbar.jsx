@@ -1,6 +1,9 @@
 import React, { useState } from 'react'
 import { CgMenuRightAlt } from "react-icons/cg";
 import { RxCross2 } from "react-icons/rx";
+import git from "../../assets/git.png"
+import linkedIn from "../../assets/linkedIn.png"
+import instagram from "../../assets/instagram.png"
 
 function Navbar() {
 
@@ -46,9 +49,9 @@ function Navbar() {
                             <li>Projects</li>
                             <li>Contact</li>
                             <li className='flex gap-4 mt-8'>
-                                <img src="src/assets/linkedIn.png" className='w-10 text-white' alt="a" />
-                                <img src="src/assets/git.png" className='w-10 text-white' alt="a" />
-                                <img src="src/assets/instagram.png" className='w-10 text-white' alt="a" />
+                                <img src={linkedIn} className='w-10 text-white' alt="a" />
+                                <img src={git} className='w-10 text-white' alt="a" />
+                                <img src={instagram} className='w-10 text-white' alt="a" />
                                 
                             </li>
                         </ul>
