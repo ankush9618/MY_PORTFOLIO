@@ -24,14 +24,8 @@ word-spacing: 2px;
   right: -20px;
 }
 
-.info-button{
+.info-button,.skills-color,.profile-bg,.about-image{
   background: linear-gradient(267deg, #DA7C25 .36%, #B923E1 102.06%);
 
 }
-.profile-bg{
-  background: linear-gradient(267deg, #DA7C25 .36%, #B923E1 102.06%);
-}
 
-.about-image{
-  background: linear-gradient(267deg, #DA7C25 .36%, #B923E1 102.06%);
-}

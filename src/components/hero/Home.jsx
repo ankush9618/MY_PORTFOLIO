@@ -3,8 +3,8 @@ import profile from "../../assets/profile.png"
 
 function Home() {
     return (
-        <div id="home" className="home w-full text-center md:mt-10 mt-5">
-            <div className="profile-img md:size-50 size-30 mx-auto md:mb-10 mb-5 rounded-full relative">
+        <div id="home" className="home w-full text-center md:mt-10 mt-5 scroll-mt-50" >
+            <div className="profile-img md:size-50 size-30 mx-auto md:mb-10 mb-5 rounded-full relative cursor-pointer hover:scale-105 duration-700">
                 {/* Spinning Background */}
                 <div className="absolute inset-0 rounded-full md:border-2 border-1 profile-bg border-white animate-spin z-0"></div>
 
