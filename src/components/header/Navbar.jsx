@@ -5,6 +5,7 @@ import git from "../../assets/git.png"
 import linkedIn from "../../assets/linkedIn.png"
 import instagram from "../../assets/instagram.png";
 import { IoIosArrowDown } from "react-icons/io";
+import styleImg from "../../assets/download.svg"
 
 function Navbar() {
 
@@ -19,7 +20,7 @@ function Navbar() {
                 <div className="navbar-big lg:flex justify-between w-9/10 h-25 items-center hidden mx-auto">
                     <div className="navbar-left text-3xl font-semibold relative cursor-pointer">
                         <p className='z-1 relative bg-transparent name text-red'>Ankush Kumar Singh</p>
-                        <img className='absolute bottom-[-5px] right-[-30px] w-[100px]' src="src\assets\download.svg" alt="" />
+                        <img className='absolute bottom-[-5px] right-[-30px] w-[100px]' src={styleImg} alt="" />
                     </div>
                     <div className="navbar-middle text-xl">
                         <ul className='flex gap-8'>
@@ -41,7 +42,7 @@ function Navbar() {
                             
                         </ul>
                     </div>
-                    <div className="navbar-right px-4  py-3 rounded-3xl hover:scale-104 cursor-pointer transition-scale duration-500">
+                    <div className="navbar-right px-4 py-3 rounded-3xl hover:scale-104 cursor-pointer transition-scale duration-500">
                         Connect With Me
                     </div>
                 </div>
@@ -49,7 +50,7 @@ function Navbar() {
                     <div className='flex items-center justify-between h-20 w-9/10 mx-auto'>
                         <div className='relative'>
                             <p>Ankush Kumar Singh</p>
-                            <img src="src/assets/download.svg" className='w-20 absolute right-[-30px] bottom-[-5px] z-[-1]' alt="" />
+                            <img src={styleImg} className='w-20 absolute right-[-30px] bottom-[-5px] z-[-1]' alt="" />
                         </div>
                         {menu ? <RxCross2 className='text-3xl' onClick={menuclicked}/> :<CgMenuRightAlt className='text-3xl' onClick={menuclicked} />}
                     </div>
@@ -70,7 +71,7 @@ function Navbar() {
                     </div>
                 </div>
             </div>
-            <div className='h-[1px] mx-auto sticky top-20 md:top-25 bg-white shadow-blue-500'></div>
+            <div className='h-[1px] mx-auto sticky top-20 lg:top-25 bg-white shadow-blue-500'></div>
         </>
     )
 }

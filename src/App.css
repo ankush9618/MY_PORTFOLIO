@@ -28,7 +28,10 @@ word-spacing: 2px;
   background: linear-gradient(267deg, #DA7C25 .36%, #B923E1 102.06%);
 
 }
+.profile-bg{
+  background: linear-gradient(267deg, #DA7C25 .36%, #B923E1 102.06%);
+}
 
-.resume{
-  border: 8px solid linear-gradient(267deg, #DA7C25 .36%, #B923E1 102.06%);
+.about-image{
+  background: linear-gradient(267deg, #DA7C25 .36%, #B923E1 102.06%);
 }
