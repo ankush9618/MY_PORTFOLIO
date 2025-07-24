@@ -33,8 +33,7 @@ function Navbar() {
                         <ul className='flex gap-8'>
                             <li><a href="/#home">Home</a> </li>
                             <li><a href="/#about">About me</a> </li>
-                            <li>Experience</li>
-                            <li>Skills</li>
+                            <li><a href="/#experience">Skills</a> </li>
                             <li>Projects</li>
                             <li className='group cursor-pointer relative'>
                                 <p className='flex items-center gap-2'>Other<IoIosArrowDown /></p>

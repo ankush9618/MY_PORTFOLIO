@@ -4,9 +4,9 @@ import aks from "../../assets/aks.jpg"
 
 function About() {
     return (
-        <div className='lg:w-7/10 mx-auto w-9/10 text-center mb-10 md:mt-30 mt-20' id='about'>
+        <div className='lg:w-7/10 mx-auto w-9/10 text-center mb-10 md:mt-30 mt-20 md:scroll-mt-30 scroll-mt-25' id='about'>
             <div className="about-heading md:mb-20 mb-10">
-                <SectionName name="About me" />
+                <SectionName name="About me" wid={20}/>
             </div>
             <div className="about-me flex gap-8 text-start w-full">
 
@@ -35,7 +35,7 @@ function About() {
                     </div>
                 </div>
                 <div className="about-image max-w-80 h-auto rounded-xl hidden md:block overflow-hidden hover:scale-102 duration-500 cursor-pointer">
-                    <img src={aks} alt="" className='w-full rounded-xl p-1' />
+                    <img src={aks} alt="" className='w-full rounded-xl p-1 object-cover h-full' />
                 </div>
             </div>
         </div>
