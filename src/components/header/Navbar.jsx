@@ -34,7 +34,7 @@ function Navbar() {
                             <li><a href="/#home">Home</a> </li>
                             <li><a href="/#about">About me</a> </li>
                             <li><a href="/#skills">Skills</a> </li>
-                            <li>Projects</li>
+                            <li><a href="/#projects">Projects</a> </li>
                             <li className='group cursor-pointer relative'>
                                 <p className='flex items-center gap-2'>Other<IoIosArrowDown /></p>
                                 <div className='hidden group-hover:block absolute top-7 w-50 pt-5'>
@@ -48,9 +48,10 @@ function Navbar() {
 
                         </ul>
                     </div>
+                    <a href="/#contact">
                     <div className="navbar-right px-4 py-3 rounded-3xl hover:scale-104 cursor-pointer transition-scale duration-500">
                         Connect With Me
-                    </div>
+                    </div></a>
                 </div>
                 <div className="navbar-small lg:hidden font-semibold text-xl relative">
                     <div className='flex items-center justify-between h-20 w-9/10 mx-auto'>
@@ -65,8 +66,8 @@ function Navbar() {
                             <li><a href="/#home" onClick={menuclicked}>Home</a> </li>
                             <li><a href="/#about" onClick={menuclicked}>About me</a> </li>
                             <li><a href="/#skills" onClick={menuclicked}>Skills</a> </li>
-                            <li>Projects</li>
-                            <li>Contact</li>
+                            <li><a href="/#projects" onClick={menuclicked}>Projects</a> </li>
+                            <li><a href="/#contact" onClick={menuclicked}>Contact</a> </li>
                             <li className='flex gap-4 mt-8'>
                                 <img src={linkedIn} className='w-10 text-white' alt="a" />
                                 <img src={git} className='w-10 text-white' alt="a" />
