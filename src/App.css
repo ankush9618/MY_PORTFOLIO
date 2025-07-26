@@ -12,6 +12,11 @@ word-spacing: 2px;
   background-clip: text;
 }
 
+.textClip{
+ background: linear-gradient(267deg, #DA7C25 .36%, #B923E1 102.06%);
+  background-clip: text;
+  color: transparent;
+}
 
 
 .menu-items{
@@ -29,3 +34,6 @@ word-spacing: 2px;
 
 }
 
+.skillcard:hover{
+  background-image: linear-gradient(45deg, #3f0028, #582300); 
+}

@@ -2,12 +2,17 @@ const allSkills=[
     {
         name:"Frontend Development",
         description:"Building modern, responsive user interfaces with cutting-edge technologies and frameworks.",
-        skills:['React JS','JavaScript','Next JS','Tailwind CSS','Bootstrap','HTML','CSS']
+        skills:['HTML','CSS','JavaScript','React JS','Next JS','Tailwind CSS','Bootstrap']
     },
     {
         name:"Backend Development",
         description:"Creating robust server-side applications and APIs with scalable architecture.",
         skills:['Node JS','Express.js','MongoDB','appwrite','MySQL']
+    },
+    {
+        name:"Programming Languages",
+        description:"Writing clean, scalable code using modern programming languages.",
+        skills:['JavaScript','C/C++','Python(Basics)','Core Java']
     },
     {
         name:"Version Control & Collaboration",
@@ -20,14 +25,9 @@ const allSkills=[
         skills:['VS Code','Figma','Postman','Git','Siebel']
     },
     {
-        name:"Programming Languages",
-        description:"Writing clean, scalable code using modern programming languages.",
-        skills:['JavaScript','C/C++','Python(Basics)','Core Java']
-    },
-    {
         name:"Soft Skills",
         description:"Combining technical skills with strong communication and problem-solving.",
-        skills:['Problem Solving','Communication','Time Management','Teamwork','Adaptability']
+        skills:['Teamwork','Communication','Adaptability','Problem Solving','Time Management']
     }
 
 ];

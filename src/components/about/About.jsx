@@ -1,5 +1,5 @@
 import React from 'react'
-import SectionName from '../SectionName'
+import SectionName from '../utils/SectionName'
 import aks from "../../assets/aks.jpg"
 
 function About() {

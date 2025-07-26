@@ -33,7 +33,7 @@ function Navbar() {
                         <ul className='flex gap-8'>
                             <li><a href="/#home">Home</a> </li>
                             <li><a href="/#about">About me</a> </li>
-                            <li><a href="/#experience">Skills</a> </li>
+                            <li><a href="/#skills">Skills</a> </li>
                             <li>Projects</li>
                             <li className='group cursor-pointer relative'>
                                 <p className='flex items-center gap-2'>Other<IoIosArrowDown /></p>
@@ -64,7 +64,7 @@ function Navbar() {
                         <ul className='bg-[#3c3737] from-[#DA7C25] to-[#B923E1] flex flex-col gap-4 py-10 px-8 text-start h-full'>
                             <li><a href="/#home" onClick={menuclicked}>Home</a> </li>
                             <li><a href="/#about" onClick={menuclicked}>About me</a> </li>
-                            <li>Skills</li>
+                            <li><a href="/#skills" onClick={menuclicked}>Skills</a> </li>
                             <li>Projects</li>
                             <li>Contact</li>
                             <li className='flex gap-4 mt-8'>
