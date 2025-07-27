@@ -10,7 +10,7 @@ function Contact() {
     event.preventDefault();
     const formData = new FormData(event.target);
 
-    formData.append("access_key", "35429274-b2cf-4b6d-bbc0-c45dcacf8be3");
+    formData.append("access_key", import.meta.env.VITE_FORM_PUBLIC_KEY);
 
     const object = Object.fromEntries(formData);
     const json = JSON.stringify(object);
@@ -48,7 +48,6 @@ function Contact() {
         </div>
         <div className='text-start w-full'>
           <form onSubmit={onSubmit}>
-            <input type="hidden" name="access_key" value="35429274-b2cf-4b6d-bbc0-c45dcacf8be3" />
             <label htmlFor="name">Your Name</label>
             <input name="name" type="text" placeholder='Enter your name' id="name" className='md:w-full border-2 px-2 py-1 block mt-2 mb-5 rounded-md border-gray-400' required />
             <label htmlFor="email">Your Email</label>

@@ -21,12 +21,16 @@ function Home() {
                 Currently working at Accenture as a Siebel (Open UI) Developer with 1.5+ years of experience, now transitioning into modern frontend development with React JS, Tailwind CSS, and JavaScript.
             </div>
             <div className='w-9/10 mx-auto flex justify-center gap-4 md:gap-8 my-5'>
-                <div className="contact-me info-button px-4  py-3 rounded-3xl hover:scale-104 cursor-pointer transition-scale duration-500">
+                <a href="#contact">
+                    <div className="contact-me info-button px-4  py-3 rounded-3xl hover:scale-104 cursor-pointer transition-scale duration-500">
                     Connect With Me
                 </div>
-                <div className="resume px-8  py-3 rounded-3xl hover:scale-104 cursor-pointer transition-scale duration-500 border-2 hover:border-purple-500">
+                </a>
+                <a href="https://drive.google.com/file/d/1fR0HBdOB9u6a24JtcJm09rwvUWwmUCpm/view?usp=sharing" target='blank'>
+                    <div className="resume px-8  py-3 rounded-3xl hover:scale-104 cursor-pointer transition-scale duration-500 border-2 hover:border-purple-500">
                     Resume
                 </div>
+                </a>
             </div>
         </div>
     )

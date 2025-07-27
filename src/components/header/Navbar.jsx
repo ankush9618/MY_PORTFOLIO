@@ -31,17 +31,17 @@ function Navbar() {
                     </div>
                     <div className="navbar-middle text-xl">
                         <ul className='flex gap-8'>
-                            <li><a href="/#home">Home</a> </li>
-                            <li><a href="/#about">About me</a> </li>
-                            <li><a href="/#skills">Skills</a> </li>
-                            <li><a href="/#projects">Projects</a> </li>
+                            <li className='hover:text-pink-500 duration-500 hover:scale-105'><a href="/#home">Home</a> </li>
+                            <li className='hover:text-pink-500 duration-500 hover:scale-105'><a href="/#about">About me</a> </li>
+                            <li className='hover:text-pink-500 duration-500 hover:scale-105'><a href="/#skills">Skills</a> </li>
+                            <li className='hover:text-pink-500 duration-500 hover:scale-105'><a href="/#projects">Projects</a> </li>
                             <li className='group cursor-pointer relative'>
                                 <p className='flex items-center gap-2'>Other<IoIosArrowDown /></p>
-                                <div className='hidden group-hover:block absolute top-7 w-50 pt-5'>
-                                    <ul className='flex flex-col gap-2 bg-[#3c3737] border-t-2 border-pink-400 px-5'>
-                                        <li>Education</li>
-                                        <li>Certifications</li>
-                                        <li></li>
+                                <div className='hidden group-hover:block absolute top-7 w-50 pt-4'>
+                                    <ul className='flex flex-col gap-2 bg-[#1c1c1c] border-t-2 border-pink-400 px-5 pt-4 shadow-md shadow-gray-500'>
+                                        <li className='border-b-1 border-gray-500 pb-2 hover:text-pink-500 duration-500 hover:scale-105'>Education</li>
+                                        <li className='hover:text-pink-500 duration-500 hover:scale-105 pb-3'>Certifications</li>
+                                        
                                     </ul>
                                 </div>
                             </li>
@@ -69,9 +69,9 @@ function Navbar() {
                             <li><a href="/#projects" onClick={menuclicked}>Projects</a> </li>
                             <li><a href="/#contact" onClick={menuclicked}>Contact</a> </li>
                             <li className='flex gap-4 mt-8'>
-                                <img src={linkedIn} className='w-10 text-white' alt="a" />
-                                <img src={git} className='w-10 text-white' alt="a" />
-                                <img src={instagram} className='w-10 text-white' alt="a" />
+                                <a href="https://www.linkedin.com/in/aks9618" target='blank'><img src={linkedIn} className='w-10 text-white' alt="a" /></a>
+                                 <a href="https://www.linkedin.com/in/aks9618" target='blank'><img src={git} className='w-10 text-white' alt="a" /></a>
+                                  <a href="https://www.linkedin.com/in/aks9618" target='blank'><img src={instagram} className='w-10 text-white' alt="a" /></a>
 
                             </li>
                         </ul>
