@@ -10,7 +10,7 @@ const allProjects = [
   {
     "title": "Aspire Engineers Website",
     "description": "A professional website for Aspire Engineers Pvt. Ltd. highlighting their services like ACB/VCB servicing and industrial solutions.",
-    "techStack": ["Next.js", "React", "Tailwind CSS","HTML","CSS"],
+    "techStack": ["Next.js", "React", "Tailwind CSS","JavaScript","HTML","CSS"],
     "liveUrl": "https://aspire-engineers.vercel.app/",
     "repoUrl": "https://github.com/ankush9618/Aspire-Engineers",
     "img":"https://res.cloudinary.com/daootd1uo/image/upload/v1753563857/aspire_rcoeqb.png"
