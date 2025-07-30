@@ -69,9 +69,9 @@ function Navbar() {
                             <li><a href="/#projects" onClick={menuclicked}>Projects</a> </li>
                             <li><a href="/#contact" onClick={menuclicked}>Contact</a> </li>
                             <li className='flex gap-4 mt-8'>
-                                <a href="https://www.linkedin.com/in/aks9618" target='blank'><img src={linkedIn} className='w-10 text-white' alt="a" /></a>
-                                 <a href="https://www.linkedin.com/in/aks9618" target='blank'><img src={git} className='w-10 text-white' alt="a" /></a>
-                                  <a href="https://www.linkedin.com/in/aks9618" target='blank'><img src={instagram} className='w-10 text-white' alt="a" /></a>
+                                <a href="https://www.linkedin.com/in/aks9618" target='blank'><img src={linkedIn} className='w-10 text-white' alt="linkedIn logo" /></a>
+                                 <a href="https://github.com/ankush9618" target='blank'><img src={git} className='w-10 text-white' alt="github logo" /></a>
+                                  <a href="https://www.instagram.com/_myself_aks_/" target='blank'><img src={instagram} className='w-10 text-white' alt="instagram logo" /></a>
 
                             </li>
                         </ul>

@@ -35,7 +35,7 @@ function About() {
                     </div>
                 </div>
                 <div className="about-image max-w-80 h-auto rounded-xl hidden md:block overflow-hidden hover:scale-102 duration-500 cursor-pointer">
-                    <img src={aks} alt="" className='w-full rounded-xl p-1 object-cover h-full' />
+                    <img src={aks} alt="full Image" className='w-full rounded-xl p-1 object-cover h-full' />
                 </div>
             </div>
         </div>

@@ -5,7 +5,7 @@ function ProjectCard({ project }) {
     return (
         <>
             <div className='w-90 md:w-80 2xl:w-90 h-auto border-2 border-white rounded-xl overflow-hidden hover:scale-110 duration-500 shadow-md shadow-gray-700 hover:border-[#ff00ff]'>
-                <img src={project.img} className='w-full object-cover h-auto border-b-1 border-gray-500' alt="" />
+                <img src={project.img} className='w-full object-cover h-auto border-b-1 border-gray-500' alt={project.title} />
                 <div className='p-2'>
                     <span className='textClip text-xl my-2 font-bold md:text-2xl'>{project.title}</span>
                     <p className=' text-gray-300'>{project.description}</p>
