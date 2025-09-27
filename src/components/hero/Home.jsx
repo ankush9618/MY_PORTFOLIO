@@ -2,6 +2,18 @@ import React from 'react'
 import profile from "../../assets/profile.png"
 
 function Home() {
+    let experience = () => {
+        let today = new Date();
+        let join = new Date("2023-11-28");
+
+        // Difference in milliseconds
+        let diffMs = today - join;
+
+        // Convert to years (approx, using average year length = 365.25 days to account for leap years)
+        let diffYears = diffMs / (1000 * 60 * 60 * 24 * 365.25);
+
+        return diffYears.toFixed(1) // e.g., 1.83 years
+    }
     return (
         <div id="home" className="home w-full text-center md:mt-10 mt-5 scroll-mt-50" >
             <div className="profile-img md:size-50 size-30 mx-auto md:mb-10 mb-5 rounded-full relative cursor-pointer hover:scale-105 duration-700">
@@ -18,7 +30,7 @@ function Home() {
                 passionate about building modern UIs.
             </div>
             <div className='lg:w-5/10 w-9/10 mx-auto md:my-3 my-2 md:text-xl space-2'>
-                Currently working at Accenture as a Siebel (Open UI) Developer with 1.5+ years of experience, now transitioning into modern frontend development with React JS, Tailwind CSS, and JavaScript.
+                Currently working at Accenture as a Siebel (Open UI) Developer with {experience()}+ years of experience, now transitioning into modern frontend development with React JS, Tailwind CSS, and JavaScript.
             </div>
             <div className='w-9/10 mx-auto flex justify-center gap-4 md:gap-8 my-5'>
                 <a href="#contact">
