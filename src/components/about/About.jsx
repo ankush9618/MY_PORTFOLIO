@@ -14,7 +14,7 @@ function About() {
         // Convert to years (approx, using average year length = 365.25 days to account for leap years)
         let diffYears = diffMs / (1000 * 60 * 60 * 24 * 365.25);
 
-        return diffYears.toFixed(1) // e.g., 1.83 years
+        return diffYears.toFixed(1);
     }
 
     return (
