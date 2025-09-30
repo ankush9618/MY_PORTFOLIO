@@ -2,7 +2,8 @@ import React from 'react'
 import profile from "../../assets/profile.png"
 
 function Home() {
-    let experience = () => {
+   
+     let experience = () => {
         let today = new Date();
         let join = new Date("2023-11-28");
 
@@ -14,6 +15,7 @@ function Home() {
 
         return diffYears.toFixed(1); // e.g., 1.83 years
     }
+    
     return (
         <div id="home" className="home w-full text-center md:mt-10 mt-5 scroll-mt-50" >
             <div className="profile-img md:size-50 size-30 mx-auto md:mb-10 mb-5 rounded-full relative cursor-pointer hover:scale-105 duration-700">

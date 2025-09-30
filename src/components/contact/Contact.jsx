@@ -41,7 +41,7 @@ function Contact() {
             Feel free to talk with me anytime — I'm always open to a good conversation, questions, or just a quick hello. 😊
           </p>
           <div className='contact-details text-gray-400 mt-4 flex flex-col gap-2 mb-5'>
-            <div className="email flex items-center gap-2"><IoIosMail className='text-xl' /> ankushkumar.singh@gmail.com</div>
+            <div className="email flex items-center gap-2"><IoIosMail className='text-xl' /> ankushkumar9618@gmail.com</div>
             <div className="phone flex items-center gap-2"><FaPhoneAlt className='text-xl' /> +91 9618538848</div>
             <div className="location flex items-center gap-2"><IoLocationSharp className='text-xl' /> India</div>
           </div>

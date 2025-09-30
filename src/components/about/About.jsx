@@ -16,6 +16,7 @@ function About() {
 
         return diffYears.toFixed(1);
     }
+    
 
     return (
         <div className='lg:w-7/10 mx-auto w-9/10 text-center mb-10 md:mt-30 mt-20 md:scroll-mt-30 scroll-mt-25' id='about'>
