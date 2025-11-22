@@ -1,11 +1,11 @@
 const allProjects = [
   {
-    "title": "Portfolio Website",
-    "description": "A personal developer portfolio showcasing skills, projects, and contact information with a modern responsive UI.",
-    "techStack": ["React", "JavaScript", "Tailwind CSS","HTML","CSS","Vite"],
-    "liveUrl": "https://ankushkumar-porfolio.vercel.app/",
-    "repoUrl": "https://github.com/ankush9618/MY_PORTFOLIO",
-    "img":"https://res.cloudinary.com/daootd1uo/image/upload/v1753557933/portfolio_zx8ljh.png"
+    "title": "TaskGrid",
+    "description": "TaskGrid is a simple and intuitive task management app designed to help users organize, track, and manage daily tasks with ease.",
+    "techStack": ["React", "JavaScript", "Tailwind CSS","HTML","CSS","Next.js"],
+    "liveUrl": "https://task-grid-ten.vercel.app/",
+    "repoUrl": "https://github.com/ankush9618/TaskGrid",
+    "img":"https://res.cloudinary.com/daootd1uo/image/upload/v1763830058/task-grid_bgdrqw.png"
   },
   {
     "title": "Aspire Engineers Website",

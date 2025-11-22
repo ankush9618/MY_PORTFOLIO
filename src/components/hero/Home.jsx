@@ -32,7 +32,7 @@ function Home() {
                 passionate about building modern UIs.
             </div>
             <div className='lg:w-5/10 w-9/10 mx-auto md:my-3 my-2 md:text-xl space-2'>
-                Currently working at Accenture as a Siebel (Open UI) Developer with {experience()}+ years of experience, now transitioning into modern frontend development with React JS, Tailwind CSS, and JavaScript.
+                Frontend Developer with {experience()}+ years of industry experience at Accenture, currently advancing skills in modern frontend development using React.js, JavaScript, and Tailwind CSS.
             </div>
             <div className='w-9/10 mx-auto flex justify-center gap-4 md:gap-8 my-5'>
                 <a href="#contact">
