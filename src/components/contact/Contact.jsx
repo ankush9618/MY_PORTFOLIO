@@ -4,9 +4,12 @@ import { IoIosMail } from "react-icons/io";
 import { FaPhoneAlt } from "react-icons/fa";
 import { IoLocationSharp } from "react-icons/io5";
 import { ToastContainer, toast } from 'react-toastify';
+import git from "../../assets/git.png"
+import linkedIn from "../../assets/linkedIn.png"
+import instagram from "../../assets/instagram.png";
 
 function Contact() {
-    const onSubmit = async (event) => {
+  const onSubmit = async (event) => {
     event.preventDefault();
     const formData = new FormData(event.target);
 
@@ -30,7 +33,7 @@ function Contact() {
   };
   return (
     <div className='mx-auto w-9/10 text-center mb-10 md:mt-30 mt-20 md:scroll-mt-30 scroll-mt-25' id='contact'>
-        <ToastContainer position="top-right" autoClose={3000} />
+      <ToastContainer position="top-right" autoClose={3000} />
       <div className="about-heading md:mb-20 mb-10">
         <SectionName name="Get in touch" wid={20} />
       </div>
@@ -45,6 +48,14 @@ function Contact() {
             <div className="phone flex items-center gap-2"><FaPhoneAlt className='text-xl' /> +91 9618538848</div>
             <div className="location flex items-center gap-2"><IoLocationSharp className='text-xl' /> India</div>
           </div>
+
+          <div className='gap-4 mt-8 hidden md:flex'>
+            <a href="https://www.linkedin.com/in/aks9618" target='blank'><img src={linkedIn} className='w-12 text-white' alt="linkedIn logo" /></a>
+            <a href="https://github.com/ankush9618" target='blank'><img src={git} className='w-12 text-white' alt="github logo" /></a>
+            <a href="https://www.instagram.com/_myself_aks_" target='blank'><img src={instagram} className='w-12 text-white' alt="instagram logo" /></a>
+
+          </div>
+
         </div>
         <div className='text-start w-full'>
           <form onSubmit={onSubmit}>
