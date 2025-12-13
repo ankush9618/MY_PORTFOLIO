@@ -1,6 +1,6 @@
 import React from 'react'
 import SectionName from '../utils/SectionName'
-import aks from "../../assets/aks.jpg"
+
 
 function About() {
 
@@ -50,7 +50,7 @@ function About() {
                     </div>
                 </div>
                 <div className="about-image max-w-80 h-auto rounded-xl hidden md:block overflow-hidden hover:scale-102 duration-500 cursor-pointer">
-                    <img src={aks} alt="full Image" className='w-full rounded-xl p-1 object-cover h-full' />
+                    <img src="https://res.cloudinary.com/daootd1uo/image/upload/v1753557934/aks_flaz20.jpg" alt="full Image" className='w-full rounded-xl p-1 object-cover h-full' loading='lazy'/>
                 </div>
             </div>
         </div>

@@ -52,9 +52,9 @@ function Contact() {
           </div>
 
           <div className='gap-4 mt-8 hidden md:flex'>
-            <a href="https://www.linkedin.com/in/aks9618" target='blank'><img src={linkedIn} className='w-8 hover:scale-115 duration-300 text-white' alt="linkedIn logo" /></a>
-            <a href="https://github.com/ankush9618" target='blank'><img src={git} className='w-8 text-white hover:scale-115 duration-300' alt="github logo" /></a>
-            <a href="https://www.instagram.com/_myself_aks_" target='blank'><img src={instagram} className='w-8 text-white hover:scale-115 duration-300' alt="instagram logo" /></a>
+            <a href="https://www.linkedin.com/in/aks9618" target='blank'><img loading='lazy' src={linkedIn} className='w-8 hover:scale-115 duration-300 text-white' alt="linkedIn logo" /></a>
+            <a href="https://github.com/ankush9618" target='blank'><img loading='lazy' src={git} className='w-8 text-white hover:scale-115 duration-300' alt="github logo" /></a>
+            <a href="https://www.instagram.com/_myself_aks_" target='blank'><img loading='lazy' src={instagram} className='w-8 text-white hover:scale-115 duration-300' alt="instagram logo" /></a>
 
           </div>
 

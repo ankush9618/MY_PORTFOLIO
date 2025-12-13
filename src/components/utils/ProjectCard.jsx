@@ -8,7 +8,7 @@ function ProjectCard({ project }) {
         <>
             <div className='w-90 md:w-80 2xl:w-90 h-auto border-2 border-white rounded-xl overflow-hidden duration-500 shadow-md shadow-gray-700 hover:border-[#ff00ff]'>
                 <div className="relative cursor-pointer" onMouseEnter={() => setIsActive(true)} onMouseLeave={() => setIsActive(false)}>
-                    <img src={project.img} className='w-full object-cover h-auto border-b-1 border-gray-500 hover:opacity-60 duration-500' alt={project.title} />
+                    <img loading="lazy" src={project.img} className='w-full object-cover h-auto border-b-1 border-gray-500 hover:opacity-60 duration-500' alt={project.title} />
                     {
                         isActive &&
                         <div className="flex justify-center gap-4 mb-2 absolute top-[50%] left-[50%] -translate-[50%] duration-1000">
