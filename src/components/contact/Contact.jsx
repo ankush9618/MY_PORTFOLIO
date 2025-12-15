@@ -4,9 +4,9 @@ import { IoIosMail } from "react-icons/io";
 import { FaPhoneAlt } from "react-icons/fa";
 import { IoLocationSharp } from "react-icons/io5";
 import { ToastContainer, toast } from 'react-toastify';
-import git from "../../assets/git.png"
-import linkedIn from "../../assets/linkedIn.png"
-import instagram from "../../assets/instagram.png";
+import git from "../../assets/git.svg"
+import linkedIn from "../../assets/linkedIn.svg"
+import instagram from "../../assets/insta.svg";
 import { RiTelegram2Line } from "react-icons/ri";
 import { FaLinkedin } from "react-icons/fa";
 
@@ -52,9 +52,9 @@ function Contact() {
           </div>
 
           <div className='gap-4 mt-8 hidden md:flex'>
-            <a href="https://www.linkedin.com/in/aks9618" target='blank'><img loading='lazy' src={linkedIn} className='w-8 hover:scale-115 duration-300 text-white' alt="linkedIn logo" /></a>
-            <a href="https://github.com/ankush9618" target='blank'><img loading='lazy' src={git} className='w-8 text-white hover:scale-115 duration-300' alt="github logo" /></a>
-            <a href="https://www.instagram.com/_myself_aks_" target='blank'><img loading='lazy' src={instagram} className='w-8 text-white hover:scale-115 duration-300' alt="instagram logo" /></a>
+            <a href="https://www.linkedin.com/in/aks9618" target='blank'><img loading='lazy' src={linkedIn} className='w-10 h-10 hover:scale-115 duration-300 text-white' alt="linkedIn logo" /></a>
+            <a href="https://github.com/ankush9618" target='blank'><img loading='lazy' src={git} className='w-10 h-10 rounded-full text-white bg-white hover:scale-115 duration-300' alt="github logo" /></a>
+            <a href="https://www.instagram.com/_myself_aks_" target='blank'><img loading='lazy' src={instagram} className='w-10 h-10 text-white hover:scale-115 duration-300' alt="instagram logo" /></a>
 
           </div>
 
@@ -62,12 +62,12 @@ function Contact() {
         <div className='text-start w-full'>
           <form onSubmit={onSubmit}>
             <label htmlFor="name">Your Name</label>
-            <input name="name" type="text" placeholder='Enter your name' id="name" className='md:w-full border-2 px-2 py-1 block mt-2 mb-5 rounded-md border-gray-400' required />
+            <input name="name" type="text" placeholder='Enter your name' id="name" className='w-full border-2 px-2 py-1 block mt-2 mb-5 rounded-md border-gray-400' required />
             <label htmlFor="email">Your Email</label>
-            <input name="email" type="email" placeholder='Enter your email' id="email" className='md:w-full border-2 px-2 py-1 block mt-2 mb-5 rounded-md border-gray-400' required />
+            <input name="email" type="email" placeholder='Enter your email' id="email" className='w-full border-2 px-2 py-1 block mt-2 mb-5 rounded-md border-gray-400' required />
             <label htmlFor="message">Your Message</label>
-            <textarea name="message" placeholder='Enter your message here..' id="message" className='md:w-full border-2 px-2 py-1 block mt-2 mb-5 rounded-md border-gray-400' rows={5} cols={25} required />
-            <button type="submit" value="Submit" className='bgGradient px-5 py-3 text-xl rounded-3xl cursor-pointer hover:scale-104 duration-700 text-white flex justify-center items-center gap-2' >Send message<RiTelegram2Line className='text-2xl'/></button>
+            <textarea name="message" placeholder='Enter your message here..' id="message" className='w-full border-2 px-2 py-1 block mt-2 mb-5 rounded-md border-gray-400' rows={5} cols={25} required />
+            <button type="submit" value="Submit" className='bgGradient px-5 py-3 text-xl rounded-3xl cursor-pointer hover:scale-104 duration-700 text-white flex justify-center items-center gap-2 w-full' >Send message<RiTelegram2Line className='text-2xl'/></button>
           </form>
         </div>
       </div>

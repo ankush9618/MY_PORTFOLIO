@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react'
 import { CgMenuRightAlt } from "react-icons/cg";
 import { RxCross2 } from "react-icons/rx";
-import git from "../../assets/git.png"
-import linkedIn from "../../assets/linkedIn.png"
-import instagram from "../../assets/instagram.png";
+import git from "../../assets/git.svg"
+import linkedIn from "../../assets/linkedIn.svg"
+import instagram from "../../assets/insta.svg";
 import { IoIosArrowDown } from "react-icons/io";
 import styleImg from "../../assets/download.svg"
 import { Link } from 'react-router';
@@ -61,7 +61,7 @@ function Navbar() {
                         </div>
                         {menu ? <RxCross2 className='text-3xl' onClick={menuclicked} /> : <CgMenuRightAlt className='text-3xl' onClick={menuclicked} />}
                     </div>
-                    <div className={`fixed top-20.5 z-50 w-8/10 h-[calc(100vh-80px)] bg-white transition-all duration-800 ease-in-out ${menu ? 'right-0' : '-right-full'}`}>
+                    <div className={`fixed top-20.5 z-50 w-8/10 h-[calc(100vh-80px)] bg-white transition-all duration-800 ease-in ${menu ? 'right-0' : '-right-full'}`}>
                         <ul className='bg-[#3c3737] from-[#DA7C25] to-[#B923E1] flex flex-col gap-4 py-10 px-8 text-start h-full'>
                             <li><a href="/#home" onClick={menuclicked}>Home</a> </li>
                             <li><a href="/#about" onClick={menuclicked}>About me</a> </li>
@@ -69,9 +69,9 @@ function Navbar() {
                             <li><a href="/#projects" onClick={menuclicked}>Projects</a> </li>
                             <li><a href="/#contact" onClick={menuclicked}>Contact</a> </li>
                             <li className='flex gap-4 mt-8'>
-                                <a href="https://www.linkedin.com/in/aks9618" target='blank'><img src={linkedIn} className='w-10 text-white' alt="linkedIn logo" /></a>
-                                 <a href="https://github.com/ankush9618" target='blank'><img src={git} className='w-10 text-white' alt="github logo" /></a>
-                                  <a href="https://www.instagram.com/_myself_aks_/" target='blank'><img src={instagram} className='w-10 text-white' alt="instagram logo" /></a>
+                                <a href="https://www.linkedin.com/in/aks9618" target='blank'><img src={linkedIn} className='w-10 h-10  text-white' alt="linkedIn logo" /></a>
+                                 <a href="https://github.com/ankush9618" target='blank'><img src={git} className='w-10 h-10 text-white' alt="github logo" /></a>
+                                  <a href="https://www.instagram.com/_myself_aks_/" target='blank'><img src={instagram} className='w-10 h-10 text-white' alt="instagram logo" /></a>
 
                             </li>
                         </ul>
