@@ -61,7 +61,7 @@ function Navbar() {
                         </div>
                         {menu ? <RxCross2 className='text-3xl' onClick={menuclicked} /> : <CgMenuRightAlt className='text-3xl' onClick={menuclicked} />}
                     </div>
-                    <div className={`fixed top-20.5 z-50 w-8/10 h-[calc(100vh-80px)] bg-white transition-all duration-800 ease-in ${menu ? 'right-0' : '-right-full'}`}>
+                    <div className={`fixed top-20.5 z-50 w-8/10 h-[calc(100vh-80px)] bg-white transition-all duration-500 ease-in-out ${menu ? 'right-0' : '-right-full'}`}>
                         <ul className='bg-[#3c3737] from-[#DA7C25] to-[#B923E1] flex flex-col gap-4 py-10 px-8 text-start h-full'>
                             <li><a href="/#home" onClick={menuclicked}>Home</a> </li>
                             <li><a href="/#about" onClick={menuclicked}>About me</a> </li>
