@@ -40,7 +40,7 @@ function Navbar() {
                                 <div className='hidden group-hover:block absolute top-7 w-50 pt-4'>
                                     <ul className='flex flex-col gap-2 bg-[#1c1c1c] border-t-2 border-pink-400 px-5 pt-4 shadow-md shadow-gray-500'>
                                         <li className='border-b-1 border-gray-500 pb-2 hover:text-pink-500 duration-500 hover:scale-105'>Education</li>
-                                        <li className='hover:text-pink-500 duration-500 hover:scale-105 pb-3'>Certifications</li>
+                                        <li className='hover:text-pink-500 duration-500 hover:scale-105 pb-3'><a href="/#certificates">Certifications</a></li>
                                         
                                     </ul>
                                 </div>
@@ -67,6 +67,7 @@ function Navbar() {
                             <li><a href="/#about" onClick={menuclicked}>About me</a> </li>
                             <li><a href="/#skills" onClick={menuclicked}>Skills</a> </li>
                             <li><a href="/#projects" onClick={menuclicked}>Projects</a> </li>
+                            <li><a href="/#certificates" onClick={menuclicked}>Certifications</a> </li>
                             <li><a href="/#contact" onClick={menuclicked}>Contact</a> </li>
                             <li className='flex gap-4 mt-8'>
                                 <a href="https://www.linkedin.com/in/aks9618" target='blank'><img src={linkedIn} className='w-10 h-10  text-white' alt="linkedIn logo" /></a>
