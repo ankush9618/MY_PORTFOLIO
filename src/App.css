@@ -45,3 +45,20 @@ word-spacing: 2px;
 .skillcard:hover{
   background-image: linear-gradient(45deg, #3f0028, #582300); 
 }
+
+
+.row-end-span_5{
+  grid-row-end: span 5;
+}
+.row-end-span_6{
+  grid-row-end: span 6;
+}
+.row-end-span_8{
+  grid-row-end: span 8;
+}
+.row-end-span_10{
+  grid-row-end: span 10;
+}
+.row-end-span_12{
+  grid-row-end: span 12;
+}
