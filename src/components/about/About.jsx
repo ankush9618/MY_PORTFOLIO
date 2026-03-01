@@ -19,15 +19,15 @@ function About() {
     
 
     return (
-        <div className='lg:w-7/10 mx-auto w-9/10 text-center mb-10 md:mt-30 mt-20 md:scroll-mt-30 scroll-mt-25' id='about'>
+        <section className='lg:w-7/10 mx-auto w-9/10 text-center mb-10 md:mt-30 mt-20 md:scroll-mt-30 scroll-mt-25' id='about'>
             <div className="about-heading md:mb-20 mb-10">
                 <SectionName name="About me" wid={20} />
             </div>
             <div className="about-me flex gap-8 text-start w-full">
 
-                <div className="about-info  mx-auto text-justify text-sm md:text-base">
+                <div className="about-info  mx-auto text-justify text-sm md:text-base" aria-label='about info'>
                     <p className='mb-3'>
-                        I'm a Siebel developer with over {experience()}+ years of experience working on Siebel (Open UI) at Accenture. Currently, I am passionately expanding my expertise in modern web development—crafting responsive and engaging user interfaces with technologies like React, Next.js, Tailwind CSS, Bootstrap, and traditional HTML/CSS.
+                        I'm a <span className='font-semibold'>Frontend Developer</span> with {experience()}+ years of experience building and maintaining enterprise-scale web applications using HTML, CSS, JavaScript, and jQuery. Experienced in translating Figma designs into pixel-accurate, responsive UIs, implementing client-side business logic, and integrating Frontend components with backend services. Proven ability to resolve high-volume UI defects, improve code quality, and deliver reusable UI components. Recognized as a UI SME for ownership, problem-solving, and cross-team collaboration.
                     </p>
                     <p>
                         Skilled in JavaScript, React.js, Node.js, HTML, CSS, Bootstrap, Tailwind CSS, and Siebel Open UI, with a strong grasp of frontend fundamentals and modern development practices. Consistently strives to deliver intuitive, user-friendly interfaces that align with both user needs and business goals.
@@ -53,7 +53,7 @@ function About() {
                     <img src="https://res.cloudinary.com/daootd1uo/image/upload/v1753557934/aks_flaz20.jpg" alt="full Image" className='w-full rounded-xl p-1 object-cover h-full' loading='lazy'/>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 

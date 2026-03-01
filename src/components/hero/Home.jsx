@@ -31,7 +31,7 @@ function Home() {
                 passionate about building modern UIs.
             </div>
             <div className='lg:w-5/10 w-9/10 mx-auto md:my-3 my-2 md:text-xl space-2'>
-                Frontend Developer with {experience()}+ years of industry experience at <span className='font-semibold'>Accenture</span>, currently advancing skills in modern frontend development using React.js, JavaScript, and Tailwind CSS.
+                Frontend Developer with <span className='font-semibold'>{experience()}+</span> years of industry experience at <span className='font-semibold'>Accenture</span>, currently advancing skills in modern frontend development using React.js, JavaScript, and Tailwind CSS.
             </div>
             <div className='w-9/10 mx-auto flex justify-center gap-4 md:gap-8 my-5'>
                 <a href="#contact">
@@ -39,7 +39,7 @@ function Home() {
                     Connect With Me
                 </div>
                 </a>
-                <a href="https://drive.google.com/file/d/10sb1PwWKAVD0ejA2yLasZCjJvH2Q1OXb/view" target='blank'>
+                <a href="https://drive.google.com/file/d/164ukDD-Ah2YpRmQcJ9ZrLOVqt-AfeqQv/view?usp=sharing" target='_blank'>
                     <div className="resume px-8  py-3 rounded-3xl hover:scale-104 cursor-pointer transition-scale duration-500 border-2 hover:border-purple-500">
                     Resume
                 </div>
