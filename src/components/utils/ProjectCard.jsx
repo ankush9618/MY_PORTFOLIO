@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { FaExternalLinkAlt } from "react-icons/fa";
 import { LuGithub } from "react-icons/lu";
+import {motion} from 'framer-motion'
 
 function ProjectCard({ project }) {
     const [isActive, setIsActive] = useState(false);
@@ -25,14 +26,18 @@ function ProjectCard({ project }) {
                         </div>
                     }
                 </div>
-                <div className='p-2'>
+                <motion.div className='p-2'
+                initial={{y:100,opacity:0}}
+            whileInView={{y:0,opacity:1}}
+            transition={{duration:0.6}}
+                >
                     <span className='textClip text-xl my-2 font-bold md:text-2xl'>{project.title}</span>
                     <p className=' text-gray-300 mb-4'>{project.description}</p>
                     <div className='flex flex-wrap gap-2 mb-2 justify-center text-sm'>
                         {project.techStack.map(tech => <div key={tech} className='px-2 py-1 bg-gray-800 rounded-md'>{tech}</div>)}
                     </div>
 
-                </div>
+                </motion.div>
             </div>
         </>
     )

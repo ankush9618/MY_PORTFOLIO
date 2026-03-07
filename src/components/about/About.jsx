@@ -1,5 +1,6 @@
 import React from 'react'
 import SectionName from '../utils/SectionName'
+import {motion} from 'framer-motion'
 
 
 function About() {
@@ -25,7 +26,11 @@ function About() {
             </div>
             <div className="about-me flex gap-8 text-start w-full">
 
-                <div className="about-info  mx-auto text-justify text-sm md:text-base" aria-label='about info'>
+                <motion.div className="about-info  mx-auto text-justify text-sm md:text-base" aria-label='about info'
+                initial={{x:-120,opacity:0}}
+                whileInView={{x:0,opacity:1}}
+                transition={{duration:0.6}}
+                >
                     <p className='mb-3'>
                         I'm a <span className='font-semibold'>Frontend Developer</span> with {experience()}+ years of experience building and maintaining enterprise-scale web applications using HTML, CSS, JavaScript, and jQuery. Experienced in translating Figma designs into pixel-accurate, responsive UIs, implementing client-side business logic, and integrating Frontend components with backend services. Proven ability to resolve high-volume UI defects, improve code quality, and deliver reusable UI components. Recognized as a UI SME for ownership, problem-solving, and cross-team collaboration.
                     </p>
@@ -48,10 +53,14 @@ function About() {
 
 
                     </div>
-                </div>
-                <div className="about-image max-w-80 h-auto rounded-xl hidden md:block overflow-hidden hover:scale-102 duration-500 cursor-pointer">
+                </motion.div>
+                <motion.div className="about-image max-w-80 h-auto rounded-xl hidden md:block overflow-hidden hover:scale-102 duration-500 cursor-pointer"
+                initial={{x:100,opacity:0}}
+                whileInView={{x:0,opacity:1}}
+                transition={{duration:0.6}}
+                >
                     <img src="https://res.cloudinary.com/daootd1uo/image/upload/v1753557934/aks_flaz20.jpg" alt="full Image" className='w-full rounded-xl p-1 object-cover h-full' loading='lazy'/>
-                </div>
+                </motion.div>
             </div>
         </section>
     )

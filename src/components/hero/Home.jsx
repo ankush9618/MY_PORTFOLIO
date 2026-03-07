@@ -1,4 +1,5 @@
 import React from 'react'
+import {motion} from 'framer-motion'
 
 function Home() {
    
@@ -26,14 +27,26 @@ function Home() {
                     <img loading='lazy' src="https://res.cloudinary.com/daootd1uo/image/upload/v1753557933/profile_arfsci.png" alt="Profile" className="object-cover w-full h-full" />
                 </div>
             </div>
-            <div className='md:text-5xl text-lg lg:w-3/5 w-9/10 mx-auto font-semibold'>
+            <motion.div className='md:text-5xl text-lg lg:w-3/5 w-9/10 mx-auto font-semibold' 
+            initial={{y:100,opacity:0}}
+            whileInView={{y:0,opacity:1}}
+            transition={{duration:0.6}}
+            >
                 <span className='name text-transparent bg-clip-text '>I'm Ankush Kumar Singh, </span>
                 passionate about building modern UIs.
-            </div>
-            <div className='lg:w-5/10 w-9/10 mx-auto md:my-3 my-2 md:text-xl space-2'>
+            </motion.div>
+            <motion.div className='lg:w-5/10 w-9/10 mx-auto md:my-3 my-2 md:text-xl space-2'
+            initial={{y:100,opacity:0}}
+            whileInView={{y:0,opacity:1}}
+            transition={{duration:0.6}}
+            >
                 Frontend Developer with <span className='font-semibold'>{experience()}+</span> years of industry experience at <span className='font-semibold'>Accenture</span>, currently advancing skills in modern frontend development using React.js, JavaScript, and Tailwind CSS.
-            </div>
-            <div className='w-9/10 mx-auto flex justify-center gap-4 md:gap-8 my-5'>
+            </motion.div>
+            <motion.div className='w-9/10 mx-auto flex justify-center gap-4 md:gap-8 my-5'
+            initial={{y:100,opacity:0}}
+            whileInView={{y:0,opacity:1}}
+            transition={{duration:0.6}}
+            >
                 <a href="#contact">
                     <div className="contact-me info-button px-4  py-3 rounded-3xl hover:scale-104 cursor-pointer transition-scale duration-500">
                     Connect With Me
@@ -44,7 +57,7 @@ function Home() {
                     Resume
                 </div>
                 </a>
-            </div>
+            </motion.div>
         </div>
     )
 }

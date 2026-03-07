@@ -7,6 +7,7 @@ import instagram from "../../assets/insta.svg";
 import { IoIosArrowDown } from "react-icons/io";
 import styleImg from "../../assets/download.svg"
 import { Link } from 'react-router';
+import {motion} from 'framer-motion'
 
 function Navbar() {
 
@@ -48,7 +49,9 @@ function Navbar() {
                     <div className="navbar-middle text-xl font-semibold xl:text-2xl">
                         <ul className='flex gap-8'>
                             <li className='hover:text-pink-500 duration-500 hover:scale-105'><a href="/#home">Home</a> </li>
-                            <li className='hover:text-pink-500 duration-500 hover:scale-105'><a href="/#about">About me</a> </li>
+                            <motion.li className='hover:text-pink-500 duration-500 hover:scale-105'
+                            layoutId="underline"
+                            ><a href="/#about">About me</a> </motion.li>
                             <li className='hover:text-pink-500 duration-500 hover:scale-105'><a href="/#skills">Skills</a> </li>
                             <li className='hover:text-pink-500 duration-500 hover:scale-105'><a href="/#projects">Projects</a> </li>
                             <li className='group cursor-pointer relative'>

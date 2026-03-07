@@ -9,6 +9,7 @@ import linkedIn from "../../assets/linkedIn.svg"
 import instagram from "../../assets/insta.svg";
 import { RiTelegram2Line } from "react-icons/ri";
 import { FaLinkedin } from "react-icons/fa";
+import {motion} from 'framer-motion'
 
 function Contact() {
   const onSubmit = async (event) => {
@@ -40,7 +41,11 @@ function Contact() {
         <SectionName name="Get in touch" wid={20} />
       </div>
       <div className='md:w-8/10 w-9/10 mx-auto md:flex justify-center gap-8'>
-        <div className='text-start'>
+        <motion.div className='text-start'
+        initial={{y:100,opacity:0}}
+        whileInView={{y:0,opacity:1}}
+        transition={{duration:0.6}}
+        >
           <span className='textClip md:text-4xl font-semibold text-2xl'>Let's talk</span>
           <p className='text-gray-300'>
             Feel free to talk with me anytime — I'm always open to a good conversation, questions, or just a quick hello. 😊
@@ -58,8 +63,12 @@ function Contact() {
 
           </div>
 
-        </div>
-        <div className='text-start w-full'>
+        </motion.div>
+        <motion.div className='text-start w-full'
+        initial={{y:100,opacity:0}}
+            whileInView={{y:0,opacity:1}}
+            transition={{duration:0.6}}
+        >
           <form onSubmit={onSubmit}>
             <label htmlFor="name">Your Name</label>
             <input name="name" type="text" placeholder='Enter your name' id="name" className='w-full border-2 px-2 py-1 block mt-2 mb-5 rounded-md border-gray-400' required />
@@ -69,7 +78,7 @@ function Contact() {
             <textarea name="message" placeholder='Enter your message here..' id="message" className='w-full border-2 px-2 py-1 block mt-2 mb-5 rounded-md border-gray-400' rows={5} cols={25} required />
             <button type="submit" value="Submit" className='bgGradient px-5 py-3 text-xl rounded-3xl cursor-pointer hover:scale-104 duration-700 text-white flex justify-center items-center gap-2 w-full' >Send message<RiTelegram2Line className='text-2xl'/></button>
           </form>
-        </div>
+        </motion.div>
       </div>
     </div>
   );
