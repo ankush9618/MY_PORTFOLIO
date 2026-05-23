@@ -1,5 +1,6 @@
 import React from 'react'
 import {motion} from 'framer-motion'
+import profile from '../../assets/profile.png'
 
 function Home() {
    
@@ -24,7 +25,7 @@ function Home() {
 
                 {/* Static Image */}
                 <div className="relative z-10 overflow-hidden rounded-full size-full outline-0">
-                    <img loading='lazy' src="./src/assets/profile.png" alt="Profile" className="object-cover w-full h-full" />
+                    <img loading='lazy' src={profile} alt="Profile" className="object-cover w-full h-full" />
                 </div>
             </div>
             <motion.div className='md:text-5xl text-lg lg:w-3/5 w-9/10 mx-auto font-semibold' 
