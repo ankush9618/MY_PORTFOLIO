@@ -18,13 +18,13 @@ function Home() {
     
     return (
         <div id="home" className="home w-full text-center md:mt-35 mt-40 scroll-mt-50" >
-            <div className="profile-img md:size-50 size-35 mx-auto mb-15 rounded-full relative cursor-pointer hover:scale-105 duration-700">
+            <div className="profile-img md:size-50 size-35 mx-auto mb-15 rounded-full relative cursor-pointer hover:scale-105 duration-700 p-0.5">
                 {/* Spinning Background */}
-                <div className="absolute inset-0 rounded-full md:border-2 border-1 profile-bg border-white animate-spin z-0"></div>
+                <div className="absolute inset-0 rounded-full profile-bg border-white z-0"></div>
 
                 {/* Static Image */}
                 <div className="relative z-10 overflow-hidden rounded-full size-full outline-0">
-                    <img loading='lazy' src="https://res.cloudinary.com/daootd1uo/image/upload/v1753557933/profile_arfsci.png" alt="Profile" className="object-cover w-full h-full" />
+                    <img loading='lazy' src="./src/assets/profile.png" alt="Profile" className="object-cover w-full h-full" />
                 </div>
             </div>
             <motion.div className='md:text-5xl text-lg lg:w-3/5 w-9/10 mx-auto font-semibold' 
