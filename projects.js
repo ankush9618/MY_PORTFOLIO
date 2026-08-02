@@ -1,13 +1,13 @@
 const allProjects = [
   {
-    "title": "TaskGrid",
-    "description": "TaskGrid is a simple and intuitive task management app designed to help users organize, track, and manage daily tasks with ease.",
-    "techStack": ["React", "JavaScript", "Tailwind CSS","HTML","CSS","Next.js"],
-    "liveUrl": "https://task-grid-ten.vercel.app/",
-    "repoUrl": "https://github.com/ankush9618/TaskGrid",
-    "img":"https://res.cloudinary.com/daootd1uo/image/upload/v1763830058/task-grid_bgdrqw.png"
+    "title": "Inventory Management System",
+    "description": "A full-stack MERN application for managing inventory, products, and users with role-based access and stock updates.",
+    "techStack": ["React", "Node.js", "Express", "MongoDB", "Tailwind CSS"],
+    "liveUrl": "https://inventory-management-system-frontend-six.vercel.app/",
+    "repoUrl": "https://github.com/ankush9618/Inventory-Management-System-Frontend",
+    "img":"https://res.cloudinary.com/daootd1uo/image/upload/v1753564702/inventory_ctnfii.png"
   },
-  {
+   {
     "title": "Aspire Engineers Website",
     "description": "A professional website for Aspire Engineers Pvt. Ltd. highlighting their services like ACB/VCB servicing and industrial solutions.",
     "techStack": ["Next.js", "React", "Tailwind CSS","JavaScript","HTML","CSS"],
@@ -16,12 +16,12 @@ const allProjects = [
     "img":"https://res.cloudinary.com/daootd1uo/image/upload/v1753563857/aspire_rcoeqb.png"
   },
   {
-    "title": "Inventory Management System",
-    "description": "A full-stack MERN application for managing inventory, products, and users with role-based access and stock updates.",
-    "techStack": ["React", "Node.js", "Express", "MongoDB", "Tailwind CSS"],
-    "liveUrl": "https://inventory-management-system-frontend-six.vercel.app/",
-    "repoUrl": "https://github.com/ankush9618/Inventory-Management-System-Frontend",
-    "img":"https://res.cloudinary.com/daootd1uo/image/upload/v1753564702/inventory_ctnfii.png"
+    "title": "TaskGrid",
+    "description": "TaskGrid is a simple and intuitive task management app designed to help users organize, track, and manage daily tasks with ease.",
+    "techStack": ["React", "JavaScript", "Tailwind CSS","HTML","CSS","Next.js"],
+    "liveUrl": "https://task-grid-ten.vercel.app/",
+    "repoUrl": "https://github.com/ankush9618/TaskGrid",
+    "img":"https://res.cloudinary.com/daootd1uo/image/upload/v1763830058/task-grid_bgdrqw.png"
   },
   {
     "title": "Text Analyzer",

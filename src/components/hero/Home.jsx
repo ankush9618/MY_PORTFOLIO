@@ -53,7 +53,7 @@ function Home() {
                     Connect With Me
                 </div>
                 </a>
-                <a href="https://drive.google.com/file/d/1NF1pOp2rzk44wYcR8kTLXSnUDTQV3Use/view?usp=sharing" target='_blank'>
+                <a href="ankush.k.singh_resume.pdf" target='_blank'>
                     <div className="resume px-8  py-3 rounded-3xl hover:scale-104 cursor-pointer transition-scale duration-500 border-2 hover:border-purple-500">
                     Resume
                 </div>
