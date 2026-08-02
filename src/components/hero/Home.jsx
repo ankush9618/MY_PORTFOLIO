@@ -1,6 +1,7 @@
 import React from 'react'
 import {motion} from 'framer-motion'
 import profile from '../../assets/profile.png'
+import { IoMdDownload } from "react-icons/io";
 
 function Home() {
    
@@ -16,6 +17,9 @@ function Home() {
 
         return diffYears.toFixed(1); // e.g., 1.83 years
     }
+    let today = new Date();
+    let date = String(today.getDate()).padStart(2, '0');
+    let month = String(today.getMonth() + 1).padStart(2, '0');
     
     return (
         <div id="home" className="home w-full text-center md:mt-35 mt-40 scroll-mt-50" >
@@ -53,9 +57,9 @@ function Home() {
                     Connect With Me
                 </div>
                 </a>
-                <a href="ankush.k.singh_resume.pdf" target='_blank'>
-                    <div className="resume px-8  py-3 rounded-3xl hover:scale-104 cursor-pointer transition-scale duration-500 border-2 hover:border-purple-500">
-                    Resume
+                <a href="ankush.k.singh_resume.pdf" target='_blank' download={"Ankush_Kumar_Singh_Resume_" + date + "_" + month + ".pdf"}>
+                    <div className="resume px-8  py-3 rounded-3xl hover:scale-104 cursor-pointer transition-scale duration-500 border-2 hover:border-purple-500 flex justify-center items-center gap-2">
+                    <IoMdDownload/>Resume
                 </div>
                 </a>
             </motion.div>
